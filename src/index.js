@@ -44,8 +44,9 @@ class Onboarding extends Component {
   }
 
   onSwipePageChange = ({ viewableItems }) => {
-    if (!viewableItems[0] || this.state.currentPage === viewableItems[0].index)
-      return;
+    if (!viewableItems[ 0 ] || this.state.currentPage === viewableItems[ 0 ].index) {
+      return; 
+    }
 
     this.setState((state) => {
       this.props.pageIndexCallback &&
