@@ -1,6 +1,6 @@
 {
   "name": "@chowzzzz/react-native-onboarding-swiper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Delightful Onboarding for your React-Native App",
   "main": "src/index.js",
   "scripts": {
